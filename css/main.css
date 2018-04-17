@@ -6,6 +6,7 @@ body {
 nav {
 	background-color: #cc6699;
 	padding: 20px 0;
+	position: inherit;
 }
 .nav-left {
 	text-align: left;
@@ -37,7 +38,7 @@ nav {
 }
 
 .nav-right li {
-	display: inline-block;
+	display: inline;
 	padding: 12px;
 	font-size: 20px;
 	text-align: center;
@@ -99,6 +100,7 @@ body {
 
 .right {
 	margin-top: 35px;
+	margin-bottom: 90px;
 	font-family: 'Poiret One', cursive;
 	color:  #bfff80;
 	font-size: 17px;
@@ -120,14 +122,15 @@ button {
 	padding: 20px 25px;
 	font-size: 15px;
 	margin-left: 10px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 
 }
 
 #buttons {
 	text-align: right;
-	margin-right: 190px;
+	margin-right: 360px;
 	margin-bottom: 75px;
+	display: inline;
 
 }
 
@@ -136,7 +139,7 @@ button {
 .footer {
 	background-color: #bfff80;
 	text-align: center;
-	height: 100px;
+	height: 135px;
 }
 
 #socialIcons {
@@ -167,3 +170,4 @@ button {
 	border-radius: 50%;
 	padding: 5px 8px;
 }
+
