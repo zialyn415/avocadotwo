@@ -22,6 +22,17 @@ nav {
 
 }
 
+.nav-left p {
+	display: inline-block;
+	font-size: 21px;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 25px;
+	margin-bottom: 0;
+	position: absolute;
+
+}
+
 .nav-right {
 
 	display: inline-block;
@@ -39,7 +50,7 @@ nav {
 
 .nav-right li {
 	display: inline;
-	padding: 12px;
+	padding: 27px;
 	font-size: 20px;
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
@@ -170,4 +181,56 @@ button {
 	border-radius: 50%;
 	padding: 5px 8px;
 }
+
+
+
+@media (max-width: 909px) {
+	div.right: {
+		font-size: 10px;
+	}
+
+}
+
+
+@media (max-width: 635px) {
+
+	.left, .right  {
+		display: block;
+		width: 100%;
+
+	}
+	div.right {
+		font-size: 12px;
+		display: block;
+		text-align: center;
+	}
+
+	div.left {
+		margin-left: 230px;
+	}
+
+	div.left img {
+		width: 27%;
+		height: 95px;
+		display: inline;
+		text-align: center;
+	}
+
+	.search input {
+		text-align: center;
+		margin-right: 200px;
+	}
+}
+
+@media (max-width: 400px) {
+
+	div.left {
+		margin-left: 150px;
+	}
+
+	.search input {
+		margin-right: 100px;
+	}
+}
+
 
