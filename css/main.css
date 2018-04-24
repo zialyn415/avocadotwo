@@ -223,6 +223,44 @@ button {
 
 }
 
-@media (max-width: 725px)
+@media (max-width: 725px){
 
-	
+	div.right {
+		margin-top: 60px;
+		margin-left: 225px;
+	}
+	div.right h1 {
+		font-size: 32px;
+		text-align: center;
+	}
+
+	button {
+		padding: 8px;
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+
+	div.left img {
+		width: 70%;
+		margin-top: 50px;
+		margin-left: 140px;
+	}
+
+	#socialIcons a {
+		margin-right: 70px;
+		padding: 0;
+	}
+
+}
+
+@media (max-width: 689px) {
+
+		button {
+		padding: 7px;
+		
+	}
+
+
+
+
+}
