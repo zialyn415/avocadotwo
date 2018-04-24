@@ -134,6 +134,8 @@ button {
 	font-size: 15px;
 	margin-left: 10px;
 	margin-bottom: 10px;
+	margin-top: 50px;
+
 
 }
 
@@ -150,7 +152,7 @@ button {
 .footer {
 	background-color: #bfff80;
 	text-align: center;
-	height: 135px;
+	height: 155px;
 }
 
 #socialIcons {
@@ -158,10 +160,12 @@ button {
 	text-align: center;
 	margin-right: 295px;
 	padding-top: 20px;
+
 }
 
 #socialIcons a {
 	color: #FFFFFF;
+	padding-left: 20px;
 }
 
 #socialIcons .fa-twitter {
@@ -184,53 +188,41 @@ button {
 
 
 
-@media (max-width: 909px) {
-	div.right: {
-		font-size: 10px;
-	}
+@media (max-width: 900px) {
 
-}
-
-
-@media (max-width: 635px) {
-
-	.left, .right  {
-		display: block;
-		width: 100%;
-
-	}
 	div.right {
-		font-size: 12px;
-		display: block;
-		text-align: center;
+		margin-top: 70px;
+	}
+	div.right h1 {
+		font-size: 35px;
 	}
 
-	div.left {
-		margin-left: 230px;
+	button {
+		padding: 10px;
 	}
 
 	div.left img {
-		width: 27%;
-		height: 95px;
-		display: inline;
-		text-align: center;
-	}
-
-	.search input {
-		text-align: center;
-		margin-right: 200px;
+		width: 70%;
+		margin-top: 70px;
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 759px) {
 
-	div.left {
-		margin-left: 150px;
+	div.right h1 {
+		font-size: 28px;
 	}
 
-	.search input {
-		margin-right: 100px;
+	button {
+		padding: 6px;
 	}
+
+	div.search input {
+		margin-right: 15px;
+	}
+
 }
 
+@media (max-width: 725px)
 
+	
