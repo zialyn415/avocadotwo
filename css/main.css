@@ -255,12 +255,56 @@ button {
 
 @media (max-width: 689px) {
 
-		button {
-		padding: 7px;
+	button {
+		padding: 5px;
 		
 	}
+	div.right h1 {
+		font-size: 30px;
+		text-align: center;
+	}
+
+	div.left img {
+		width: 65%;
+		margin-top: 50px;
+		margin-left: 140px;
+	}
+
+}
 
 
+@media (max-width: 400px) {
 
+	div.right {
+		margin-top: 50px;
+		margin-left: 125px;
+	}
+	div.right h1 {
+		font-size: 27px;
+		text-align: center;
+	}
 
+	button {
+		padding: 4px;
+		margin: 0 auto;
+		margin-top: 20px;
+		width: 100%;
+	
+	}
+
+	#buttons button {
+		font-size: 12px;
+	}
+
+	div.left img {
+		width: 70%;
+		margin-top: 50px;
+		margin-left: 25px;
+	}
+
+	#socialIcons a {
+		position: initial;
+		margin: 0 auto;
+		
+	}
 }
