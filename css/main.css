@@ -7,21 +7,25 @@ nav {
 	background-color: #cc6699;
 	padding: 20px 0;
 	position: inherit;
+	
 }
 
 ul li {
 	padding: 10px;
+
 }
 
 ul li a {
 	font-family: 'Poiret One', cursive;
 	font-size: 30px;
 
+
 }
 
 a.navbar-brand {
 	font-family: 'Poiret One', cursive;
 	font-size: 30px;
+
 }
 /*search bar*/
 input {
